@@ -1,0 +1,53 @@
+
+ @import url(https://fonts.googleapis.com/css?family=Khula:700);
+
+footer{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(https://s2.glbimg.com/T2ensC6FjQOMKgUPcXH8uFwIyV8=/smart/e.glbimg.com/og/ed/f/original/2017/07/19/sala-decor-do-dia-2017-06-12-01.jpg);
+}
+
+body {
+    background: #111;
+    }
+    .hidden {
+    opacity: 0;
+    }
+    .console-container {
+    font-family: Khula;
+    font-size: 4em;
+    text-align: center;
+    display: block;
+    color: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 110px;
+    }
+    .console-underscore {
+    display: inline-block;
+    position: relative;
+    top: -0.14em;
+    left: 10px;
+    }
+    @media only screen and (max-width: 600px) {
+    .console-container{
+      font-size: 50px;
+      width: 240%;
+    }
+    .giphy-embed {
+    width: 1px;
+    height: 1px;
+    }
+    .main-title .col-12{
+    color: blue;
+    width: 30px;
+    }
+    .about-title, .sfa-check{
+    width: 90%;
+    text-align: center;
+    }
+    .pclass {
+    width: 90%;
+    }
+}
